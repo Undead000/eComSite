@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SuperRunner Patike - Prodavnica sporta</title>
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/25/25694.png">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header>
+  <div class="navbar">
+    <div class="brand">
+      <a href="index.html">Prodavnica sporta</a>
+    </div>
+    <nav class="primary-nav">
+      <a href="index.html">Početna</a>
+      <a href="product.html">Prodavnica</a>
+      <a href="index.html#about">O nama</a>
+      <a href="index.html#contact">Kontakt</a>
+    </nav>
+    <div class="actions">
+      <div class="search">
+        <img src="https://cdn-icons-png.flaticon.com/512/54/54481.png" alt="Pretraga">
+        <span>Pretraga</span>
+      </div>
+      <a href="checkout.html" class="cart">Korpa</a>
+      <a href="login.html" class="login">Prijava</a>
+    </div>
+  </div>
+</header>
+
+<div class="page">
+
+<h2>SuperRunner Patike</h2>
+
+<img 
+  src="https://images.pexels.com/photos/2529148/pexels-photo-2529148.jpeg?w=800" 
+  srcset="https://images.pexels.com/photos/2529148/pexels-photo-2529148.jpeg?w=480 480w,
+          https://images.pexels.com/photos/2529148/pexels-photo-2529148.jpeg?w=800 800w,
+          https://images.pexels.com/photos/2529148/pexels-photo-2529148.jpeg?w=1200 1200w"
+  sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 600px"
+  class="product-main-img"
+  alt="crne i plave patike SuperRunner">
+
+<p class="price">Cena: 10.999 RSD</p>
+<p class="product-status">Dostupno</p>
+<p class="product-rating">Ocena: ★★★★☆</p>
+
+<p class="product-description">Patike za trcanje, udobne i lagane.</p>
+
+<h3>Još slika</h3>
+
+<img 
+  src="https://images.pexels.com/photos/1598505/pexels-photo-1598505.jpeg?w=400" 
+  srcset="https://images.pexels.com/photos/1598505/pexels-photo-1598505.jpeg?w=200 200w,
+          https://images.pexels.com/photos/1598505/pexels-photo-1598505.jpeg?w=400 400w"
+  sizes="(max-width: 768px) 150px, 200px"
+  class="product-thumb"
+  alt="patike bocni pogled">
+
+<h3>Opis proizvoda</h3>
+
+<p>Ovo su patike za svaki dan i trcanje. Dobre su i kvalitetne i dugo traju. Mozete da ih nosite u teretani, napolju i jos svuda.</p>
+
+<p>Prave se od materijala koji se ne haba brzo i ima udoban djon. Mislim da su super za duze setnje.</p>
+
+<h3>Specifikacije</h3>
+
+<table border="1">
+<tr>
+    <td>Brend</td>
+    <td>SuperSneakers</td>
+</tr>
+<tr>
+    <td>Boja</td>
+    <td>Crna i plava</td>
+</tr>
+<tr>
+    <td>Velicine</td>
+    <td>40 do 45</td>
+</tr>
+<tr>
+    <td>Tezina</td>
+    <td>260g</td>
+</tr>
+</table>
+
+<h3>Recenzije</h3>
+
+<p>Marko – ★★★★★ Super su!</p>
+<p>Ana – ★★★★☆ Malo velike u mom broju al su ok.</p>
+
+<button class="buy-btn" onclick="dodajNaIznos(10999); PRODUCT1_QTY++; alert('Proizvod dodat u korpu!');">Dodaj u korpu</button>
+
+<h3>Slični proizvodi</h3>
+
+<ul class="similar-products">
+    <li>
+        <img 
+          src="https://images.pexels.com/photos/2529147/pexels-photo-2529147.jpeg?w=200" 
+          srcset="https://images.pexels.com/photos/2529147/pexels-photo-2529147.jpeg?w=100 100w,
+                  https://images.pexels.com/photos/2529147/pexels-photo-2529147.jpeg?w=200 200w"
+          sizes="(max-width: 768px) 100px, 120px"
+          alt="Nike patike">
+        <div>Nike</div>
+    </li>
+    <li>
+        <img 
+          src="https://images.pexels.com/photos/1670766/pexels-photo-1670766.jpeg?w=200" 
+          srcset="https://images.pexels.com/photos/1670766/pexels-photo-1670766.jpeg?w=100 100w,
+                  https://images.pexels.com/photos/1670766/pexels-photo-1670766.jpeg?w=200 200w"
+          sizes="(max-width: 768px) 100px, 120px"
+          alt="Adidas patike">
+        <div>Adidas</div>
+    </li>
+    <li>
+        <img 
+          src="https://images.pexels.com/photos/40662/shoes-footwear-hiking-shoes-walking-40662.jpeg?w=200" 
+          srcset="https://images.pexels.com/photos/40662/shoes-footwear-hiking-shoes-walking-40662.jpeg?w=100 100w,
+                  https://images.pexels.com/photos/40662/shoes-footwear-hiking-shoes-walking-40662.jpeg?w=200 200w"
+          sizes="(max-width: 768px) 100px, 120px"
+          alt="Merrell patike">
+        <div>Merrell</div>
+    </li>
+    <li>
+        <img 
+          src="https://images.pexels.com/photos/19090/pexels-photo.jpg?w=200" 
+          srcset="https://images.pexels.com/photos/19090/pexels-photo.jpg?w=100 100w,
+                  https://images.pexels.com/photos/19090/pexels-photo.jpg?w=200 200w"
+          sizes="(max-width: 768px) 100px, 120px"
+          alt="SportStar patike">
+        <div>SportStar</div>
+    </li>
+</ul>
+
+</div>
+
+<footer>
+  <div class="footer-wrap">
+    <div class="footer1">
+      <section>
+        <h4>Kategorije</h4>
+        <ul>
+          <li><a href="product.html">Patike</a></li>
+          <li><a href="#">Odeća</a></li>
+          <li><a href="#">Oprema</a></li>
+          <li><a href="#">Akcije</a></li>
+        </ul>
+      </section>
+      <section>
+        <h4>Informacije</h4>
+        <ul>
+          <li><a href="index.html#about">O nama</a></li>
+          <li><a href="index.html#contact">Kontakt</a></li>
+          <li><a href="#">Blog</a></li>
+        </ul>
+      </section>
+      <section>
+        <h4>Podrška</h4>
+        <ul>
+          <li><a href="#">Reklamacije</a></li>
+          <li><a href="#">Dostava</a></li>
+          <li><a href="#">Povraćaj</a></li>
+        </ul>
+      </section>
+    </div>
+    <div class="footer2">
+      <div class="copyright">© 2026 Prodavnica sporta</div>
+      <div class="social">
+        <a href="https://facebook.com">
+          <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook">
+        </a>
+        <a href="https://instagram.com">
+          <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram">
+        </a>
+        <a href="https://twitter.com">
+          <img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" alt="Twitter">
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
